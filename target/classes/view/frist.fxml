@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="body" prefHeight="711.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assignment.tictactoe.service.tiktactoegame.controller.fristContro">
+   <children>
+      <ImageView fitHeight="711.0" fitWidth="618.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/bg.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="711.0" opacity="0.28" stroke="BLACK" strokeType="INSIDE" width="618.0" />
+      <Button fx:id="btnPlayNow" layoutX="230.0" layoutY="569.0" mnemonicParsing="false" onAction="#startGame" prefHeight="39.0" prefWidth="148.0" style="-fx-background-color: #003366; -fx-background-radius: 10;" text="Play Now" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="265.0" layoutY="471.0" text="Game" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="429.0" text="Tic-tac-toe" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="282.0" fitWidth="390.0" layoutX="114.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

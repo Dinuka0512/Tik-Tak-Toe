@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="711.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assignment.tictactoe.service.tiktactoegame.controller.gameContro">
+   <children>
+      <ImageView fitHeight="711.0" fitWidth="618.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/bg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="154.0" fitWidth="229.0" layoutX="197.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo2.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e1aeff" height="407.0" layoutX="80.0" layoutY="193.0" stroke="BLACK" strokeType="INSIDE" width="458.0" />
+      <VBox layoutX="88.0" layoutY="201.0" prefHeight="393.0" prefWidth="442.0" style="-fx-border-color: #ffffff;">
+         <children>
+            <HBox prefHeight="169.0" prefWidth="553.0" style="-fx-background-color: #193953;">
+               <children>
+                  <Button fx:id="btn00" mnemonicParsing="false" onAction="#btn1" prefHeight="176.0" prefWidth="170.0" style="-fx-background-color: #000e32; -fx-border-color: #ffffff;" textFill="#dbccff">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font></Button>
+                  <Button fx:id="btn01" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btn2" prefHeight="176.0" prefWidth="170.0" style="-fx-background-color: #000e32; -fx-border-color: #ffffff;" textFill="#dbccff">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font></Button>
+                  <Button fx:id="btn02" layoutX="180.0" layoutY="10.0" mnemonicParsing="false" onAction="#btn3" prefHeight="176.0" prefWidth="170.0" style="-fx-background-color: #000e32; -fx-border-color: #ffffff;" textFill="#dbccff">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font></Button>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="169.0" prefWidth="553.0" style="-fx-background-color: #193953;">
+               <children>
+                  <Button fx:id="btn10" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btn4" prefHeight="176.0" prefWidth="170.0" style="-fx-background-color: #000e32; -fx-border-color: #ffffff;" textFill="#dbccff">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font></Button>
+                  <Button fx:id="btn11" layoutX="180.0" layoutY="10.0" mnemonicParsing="false" onAction="#btn5" prefHeight="176.0" prefWidth="170.0" style="-fx-background-color: #000e32; -fx-border-color: #ffffff;" textFill="#dbccff">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font></Button>
+                  <Button fx:id="btn12" layoutX="180.0" layoutY="10.0" mnemonicParsing="false" onAction="#btn6" prefHeight="176.0" prefWidth="170.0" style="-fx-background-color: #000e32; -fx-border-color: #ffffff;" textFill="#dbccff">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="179.0" prefHeight="169.0" prefWidth="553.0" style="-fx-background-color: #193953;">
+               <children>
+                  <Button fx:id="btn20" mnemonicParsing="false" onAction="#btn7" prefHeight="176.0" prefWidth="170.0" style="-fx-background-color: #000e32; -fx-border-color: #ffffff;" textFill="#dbccff">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font></Button>
+                  <Button fx:id="btn21" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btn8" prefHeight="176.0" prefWidth="170.0" style="-fx-background-color: #000e32; -fx-border-color: #ffffff;" textFill="#dbccff">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font></Button>
+                  <Button fx:id="btn22" layoutX="180.0" layoutY="10.0" mnemonicParsing="false" onAction="#btn9" prefHeight="176.0" prefWidth="170.0" style="-fx-background-color: #000e32; -fx-border-color: #ffffff;" textFill="#dbccff">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="btnReset" layoutX="186.0" layoutY="620.0" mnemonicParsing="false" onAction="#newBoard" prefHeight="40.0" prefWidth="227.0" style="-fx-background-color: #3b3b3b;" text="Restart" textFill="WHITE" />
+   </children>
+</AnchorPane>
